@@ -21,6 +21,13 @@ func main() {
 			// log.Fatal(err)
 		}
 	}
+	var greenValues []string = []string{"", "", "", "", "T"}
+	var yellowValues []string = []string{"", "", "I", "S", ""}
+	var grayValues string = "alernoychump"
+
+	fmt.Printf("%q\n", greenValues)
+	fmt.Printf("%q\n", yellowValues)
+	fmt.Printf("%q\n", grayValues)
 	fmt.Printf("End\n")
 
 }
